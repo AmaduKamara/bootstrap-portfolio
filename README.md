@@ -27,6 +27,13 @@ This is an exercise required creating a repo, setup Bootstrap and design a deskt
 
 -Facebook: @<https://www.facebook.com/amadus.kamara.7/>
 
+👤 **Author 2**
+
+- GitHub: [github](https://github.com/AnselemOdims)
+- 
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/anselem-odimegwu-65a679104/)
+  
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
