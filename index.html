@@ -27,7 +27,7 @@
     <header
       class="navbar navbar-expand-lg navbar-light bg-white container-fluid"
     >
-      <nav class="container">
+      <nav class="container d-flex">
         <a class="navbar-brand text-primary text-bold fw-bold" href="#"
           >Our Logo</a
         >
@@ -40,10 +40,25 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon">
+            <svg
+              class="w-6 h-6 text-primary"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </span>
         </button>
         <div
-          class="collapse navbar-collapse d-flex justify-content-end"
+          class="collapse navbar-collapse justify-content-end"
           id="navbarNavAltMarkup"
         >
           <div class="navbar-nav">
@@ -68,7 +83,7 @@
         bg-white
       "
     >
-      <div class="container w-50">
+      <div class="container" style="max-width: 60%">
         <h1 class="fw-bold fs-1">
           Hello, We are <br />
           Amadu and Anselem
@@ -80,7 +95,7 @@
           contact us.
         </p>
         <a href="" class="text-uppercase text-decoration-none">Let's Connect</a>
-        <ul class="d-flex p-lg-0 mt-2">
+        <ul class="d-flex mt-2 p-0">
           <li class="me-3 list-unstyled">
             <a
               class="text-secondary"
@@ -124,7 +139,7 @@
         d-flex
         justify-content-center
         align-items-center
-        mt-5
+        my-5
         flex-column
       "
     >
@@ -312,9 +327,11 @@
         py-lg-5
         d-flex
         justify-content-center
+        mt-5
+        pb-5
       "
     >
-      <div class="row container gx-5 d-flex">
+      <div class="row container d-flex">
         <div class="col-md-4 py-lg-5">
           <h2>About Us</h2>
           <p>
@@ -392,16 +409,16 @@
               ></path>
             </svg>
           </div>
-          <ul class="d-flex list-unstyled my-4">
-            <li class="bg-light p-4 rounded-3">
+          <ul class="mt-3 list-unstyled row">
+            <li class="bg-light p-4 rounded-3 ms-3 col-sm">
               <img src="./images/javascript.png" alt="JavaScript Logo" />
               <p class="mt-3">JavaScript</p>
             </li>
-            <li class="bg-light p-4 rounded-3 ms-3">
+            <li class="bg-light p-4 rounded-3 ms-3 mt-3 col-sm">
               <img src="./images/html.png" alt="html Logo" />
               <p class="mt-3">HTML</p>
             </li>
-            <li class="bg-light p-4 rounded-3 ms-3">
+            <li class="bg-light p-4 rounded-3 ms-3 mt-3 col-sm">
               <img src="./images/css3.png" alt="CSS Logo" />
               <p class="mt-3">JavaScript</p>
             </li>
@@ -475,15 +492,15 @@
         py-lg-5
       "
     >
-      <form style="width: 500px" class="text-white">
+      <form style="max-width: 500px" class="text-white py-5">
         <h2 class="text-center">Contact Us</h2>
-        <p>
+        <p class="text-center">
           If you have an application you are interested in developing, a feature
           that you need built or a project that needs coding. we would love to
           help with it
         </p>
         <div class="mb-1">
-          <label for="exampleInputEmail1" class="form-label "></label>
+          <label for="exampleInputEmail1" class="form-label"></label>
           <input
             type="email"
             class="form-control"
@@ -510,7 +527,10 @@
           ></textarea>
         </div>
         <div class="d-flex justify-content-center mt-4">
-          <button type="submit" class="btn btn-primary bg-white text-primary btn-lg">
+          <button
+            type="submit"
+            class="btn btn-primary bg-white text-primary btn-lg"
+          >
             Get In Touch
           </button>
         </div>
