@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="main.css" />
+
+    <title>Bootstrap Portfolio</title>
+  </head>
+  <body class="bg-light">
+    <!-- Navigation Header -->
+    <header
+      class="navbar navbar-expand-lg navbar-light bg-white container-fluid"
+    >
+      <nav class="container d-flex">
+        <a class="navbar-brand text-primary text-bold fw-bold" href="#"
+          >Our Logo</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon">
+            <svg
+              class="w-6 h-6 text-primary"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#our-work"
+              >Portfolio</a
+            >
+            <a class="nav-link" href="#about-us">About</a>
+            <a class="nav-link" href="#contact-us">Contact</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Headline section -->
+    <section
+      class="
+        container-fluid
+        d-flex
+        justify-content-center
+        align-items-center
+        headline
+        bg-white
+      "
+    >
+      <div class="container" style="max-width: 60%">
+        <h1 class="fw-bold fs-1">
+          Hello, We are <br />
+          Amadu and Anselem
+        </h1>
+        <p>
+          We are software developers! We can help you build a product , feature
+          or website Look through some of my work and experience! If you like
+          what you see and have a project you need coded, don’t hestiate to
+          contact us.
+        </p>
+        <a href="" class="text-uppercase text-decoration-none">Let's Connect</a>
+        <ul class="d-flex mt-2 p-0">
+          <li class="me-3 list-unstyled">
+            <a
+              class="text-secondary"
+              href="https://twitter.com/DevAmkam"
+              target="blank"
+              ><i class="fab fa-twitter network-link"></i
+            ></a>
+          </li>
+          <li class="me-3 list-unstyled">
+            <a
+              class="text-secondary"
+              href="https://www.facebook.com/amadus.kamara.7"
+              target="blank"
+              ><i class="fab fa-facebook-square network-link"></i
+            ></a>
+          </li>
+          <li class="me-3 list-unstyled">
+            <a
+              class="text-secondary"
+              href="https://www.linkedin.com/in/amadu-kamara-3b60a25b/"
+              target="blank"
+              ><i class="fab fa-linkedin-in network-link"></i
+            ></a>
+          </li>
+          <li class="me-3 list-unstyled">
+            <a
+              class="text-secondary"
+              href="https://github.com/AmaduKamara"
+              target="blank"
+              ><i class="fab fa-github-square network-link"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!--Projects Scetion-->
+    <section
+      id="our-work"
+      class="
+        container-fluid
+        d-flex
+        justify-content-center
+        align-items-center
+        my-5
+        flex-column
+      "
+    >
+      <div class="card mb-3" style="max-width: 800px">
+        <div class="row g-0 p-3 order-0">
+          <div class="col-md-6">
+            <img
+              src="images/projects/Tonic-one.png"
+              class="img-fluid rounded-start"
+              alt="Tonic project image"
+            />
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h2 class="card-title fw-bold">Tonic</h2>
+              <ul class="d-flex p-0">
+                <li class="list-unstyled fw-bold">CANOPY</li>
+                <li class="ms-4 text-secondary">Back End Dev</li>
+                <li class="ms-4 text-secondary">2015</li>
+              </ul>
+              <p class="card-text">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
+              <ul class="d-flex list-unstyled">
+                <li><span class="badge bg-light text-primary">html</span></li>
+                <li>
+                  <span class="badge bg-light text-primary ms-3">css</span>
+                </li>
+                <li>
+                  <span class="badge bg-light text-primary ms-3"
+                    >javascript</span
+                  >
+                </li>
+              </ul>
+              <button type="button" class="btn btn-outline-primary mt-4">
+                See Project
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 mt-5" style="max-width: 800px">
+        <div class="row g-0 p-3">
+          <div class="col-md-6 order-1">
+            <img
+              src="images/projects/Multi-Post-One.png"
+              class="img-fluid rounded-start"
+              alt="Multi-post project image"
+            />
+          </div>
+          <div class="col-md-6 order-0">
+            <div class="card-body">
+              <h2 class="card-title fw-bold">Multi-Post Stories</h2>
+              <ul class="d-flex p-0">
+                <li class="list-unstyled fw-bold">FACEBOOK</li>
+                <li class="ms-4 text-secondary">Full Stack Dev</li>
+                <li class="ms-4 text-secondary">2015</li>
+              </ul>
+              <p class="card-text">
+                Experimental content creation feature that allows users to add
+                to an existing story over the course of a day without spamming
+                their friends.
+              </p>
+              <ul class="d-flex list-unstyled">
+                <li><span class="badge bg-light text-primary">html</span></li>
+                <li>
+                  <span class="badge bg-light text-primary ms-3"
+                    >ruby on rails</span
+                  >
+                </li>
+                <li>
+                  <span class="badge bg-light text-primary ms-3">css</span>
+                </li>
+                <li>
+                  <span class="badge bg-light text-primary ms-3"
+                    >javascript</span
+                  >
+                </li>
+              </ul>
+              <button type="button" class="btn btn-outline-primary mt-4">
+                See Project
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 mt-5" style="max-width: 800px">
+        <div class="row g-0 p-3">
+          <div class="col-md-6">
+            <img
+              src="images/projects/Facebook-360.png"
+              class="img-fluid rounded-start"
+              alt="Facebook project image"
+            />
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h2 class="card-title fw-bold">Facebook 360</h2>
+              <ul class="d-flex p-0">
+                <li class="list-unstyled fw-bold">FACEBOOK</li>
+                <li class="ms-4 text-secondary">Full Stack Dev</li>
+                <li class="ms-4 text-secondary">2015</li>
+              </ul>
+              <p class="card-text">
+                Exploring the future of media in Facebook's first Virtual
+                Reality app; a place to discover and enjoy 360 photos and videos
+                on Gear VR.
+              </p>
+              <ul class="d-flex list-unstyled">
+                <li><span class="badge bg-light text-primary">html</span></li>
+                <li>
+                  <span class="badge bg-light text-primary ms-3"
+                    >ruby on rails</span
+                  >
+                </li>
+                <li>
+                  <span class="badge bg-light text-primary ms-3">css</span>
+                </li>
+                <li>
+                  <span class="badge bg-light text-primary ms-3"
+                    >javascript</span
+                  >
+                </li>
+              </ul>
+              <button type="button" class="btn btn-outline-primary mt-4">
+                See Project
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 mt-5" style="max-width: 800px">
+        <div class="row g-0 p-3">
+          <div class="col-md-6 order-1">
+            <img
+              src="images/projects/Uber-Navigator.png"
+              class="img-fluid rounded-start"
+              alt="Uber project image"
+            />
+          </div>
+          <div class="col-md-6 order-0">
+            <div class="card-body">
+              <h2 class="card-title fw-bold">Uber Navigation</h2>
+              <ul class="d-flex p-0">
+                <li class="list-unstyled fw-bold">Uber</li>
+                <li class="ms-4 text-secondary">Lead Developer</li>
+                <li class="ms-4 text-secondary">2018</li>
+              </ul>
+              <p class="card-text">
+                A smart assistant to make driving more safe, efficient, and fun
+                by unlocking your most expensive computer: your car.
+              </p>
+              <ul class="d-flex list-unstyled">
+                <li><span class="badge bg-light text-primary">html</span></li>
+                <li>
+                  <span class="badge bg-light text-primary ms-3"
+                    >ruby on rails</span
+                  >
+                </li>
+                <li>
+                  <span class="badge bg-light text-primary ms-3">css</span>
+                </li>
+                <li>
+                  <span class="badge bg-light text-primary ms-3"
+                    >javascript</span
+                  >
+                </li>
+              </ul>
+              <button type="button" class="btn btn-outline-primary mt-4">
+                See Project
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section
+      id="about-us"
+      class="
+        about-me
+        container-fluid
+        bg-white
+        py-lg-5
+        d-flex
+        justify-content-center
+        mt-5
+        pb-5
+      "
+    >
+      <div class="row container d-flex">
+        <div class="col-md-4 py-lg-5">
+          <h2>About Us</h2>
+          <p>
+            Hello We are software developers! We can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact us.
+          </p>
+          <a href="" class="text-uppercase text-decoration-none"
+            >Let's Connect</a
+          >
+          <ul class="d-flex p-lg-0 mt-2">
+            <li class="me-3 list-unstyled">
+              <a
+                class="text-secondary"
+                href="https://twitter.com/DevAmkam"
+                target="blank"
+                ><i class="fab fa-twitter network-link"></i
+              ></a>
+            </li>
+            <li class="me-3 list-unstyled">
+              <a
+                class="text-secondary"
+                href="https://www.facebook.com/amadus.kamara.7"
+                target="blank"
+                ><i class="fab fa-facebook-square network-link"></i
+              ></a>
+            </li>
+            <li class="me-3 list-unstyled">
+              <a
+                class="text-secondary"
+                href="https://www.linkedin.com/in/amadu-kamara-3b60a25b/"
+                target="blank"
+                ><i class="fab fa-linkedin-in network-link"></i
+              ></a>
+            </li>
+            <li class="me-3 list-unstyled">
+              <a
+                class="text-secondary"
+                href="https://github.com/AmaduKamara"
+                target="blank"
+                ><i class="fab fa-github-square network-link"></i
+              ></a>
+            </li>
+          </ul>
+          <button type="button" class="btn btn-outline-primary btn-lg">
+            Get our resume
+          </button>
+        </div>
+        <div class="col-md-8 py-lg-5">
+          <div
+            class="
+              d-flex
+              justify-content-between
+              align-items-center
+              border-bottom
+              pb-3
+              pt-1
+            "
+          >
+            <h4>Languages</h4>
+            <svg
+              style="width: 30; height: 30"
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"
+              ></path>
+            </svg>
+          </div>
+          <ul class="mt-3 list-unstyled row">
+            <li class="bg-light p-4 rounded-3 ms-3 col-sm">
+              <img src="./images/javascript.png" alt="JavaScript Logo" />
+              <p class="mt-3">JavaScript</p>
+            </li>
+            <li class="bg-light p-4 rounded-3 ms-3 mt-3 col-sm">
+              <img src="./images/html.png" alt="html Logo" />
+              <p class="mt-3">HTML</p>
+            </li>
+            <li class="bg-light p-4 rounded-3 ms-3 mt-3 col-sm">
+              <img src="./images/css3.png" alt="CSS Logo" />
+              <p class="mt-3">JavaScript</p>
+            </li>
+          </ul>
+          <div
+            class="
+              d-flex
+              justify-content-between
+              align-items-center
+              border-bottom
+              py-2
+              pt-1
+            "
+          >
+            <h4>Frameworks</h4>
+            <svg
+              style="width: 30; height: 30"
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5l7 7-7 7"
+              ></path>
+            </svg>
+          </div>
+          <div
+            class="
+              d-flex
+              justify-content-between
+              align-items-center
+              border-bottom
+              py-2
+              mt-3
+            "
+          >
+            <h4>Skills</h4>
+            <svg
+              style="width: 30; height: 30"
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5l7 7-7 7"
+              ></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Contact Section-->
+    <footer
+      id="contact-us"
+      class="
+        container-fluid
+        d-flex
+        justify-content-center
+        flex-column
+        align-items-center
+        bg-primary
+        py-lg-5
+      "
+    >
+      <form style="max-width: 500px" class="text-white py-5">
+        <h2 class="text-center">Contact Us</h2>
+        <p class="text-center">
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. we would love to
+          help with it
+        </p>
+        <div class="mb-1">
+          <label for="exampleInputEmail1" class="form-label"></label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Full Name"
+          />
+        </div>
+        <div class="mb-4">
+          <label for="email" class="form-label m-0"></label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Email"
+          />
+        </div>
+        <div class="form-floating">
+          <textarea
+            class="form-control"
+            placeholder="Leave a comment here"
+            id="floatingTextarea2"
+            style="height: 100px"
+          ></textarea>
+        </div>
+        <div class="d-flex justify-content-center mt-4">
+          <button
+            type="submit"
+            class="btn btn-primary bg-white text-primary btn-lg"
+          >
+            Get In Touch
+          </button>
+        </div>
+      </form>
+    </footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
