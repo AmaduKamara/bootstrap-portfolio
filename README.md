@@ -14,7 +14,7 @@ This is an exercise for setting ip a desktop designs of a Portfolio Website usin
 
 ## Live Demo
 
-<a href="#">Bootstrap Portfolio Website Link</a>
+[Live Demo Link](https://amadukamara.github.io/bootstrap-portfolio/)
 
 ## Getting Started
 
