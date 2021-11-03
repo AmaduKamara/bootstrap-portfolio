@@ -12,26 +12,113 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="main.css" />
 
     <title>Bootstrap Portfolio</title>
   </head>
-  <body>
-  <header class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
-    <nav class="container">
-        <a class="navbar-brand text-primary text-bold fw-bold" href="#">Our Logo</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  <body class="bg-light">
+    <!-- Navigation Header -->
+    <header
+      class="navbar navbar-expand-lg navbar-light bg-white container-fluid"
+    >
+      <nav class="container">
+        <a class="navbar-brand text-primary text-bold fw-bold" href="#"
+          >Our Logo</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+        <div
+          class="collapse navbar-collapse d-flex justify-content-end"
+          id="navbarNavAltMarkup"
+        >
           <div class="navbar-nav">
-            <a class="nav-link active text-primary" aria-current="page" href="#">Portfolio</a>
-            <a class="nav-link text-primary" href="#">About</a>
-            <a class="nav-link text-primary" href="#">Contact</a>
+            <a class="nav-link active" aria-current="page" href="#"
+              >Portfolio</a
+            >
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Contact</a>
           </div>
-      </div>
-    </nav>
-  </header>
+        </div>
+      </nav>
+    </header>
 
+    <!-- Headline section -->
+    <section
+      class="
+        container-fluid
+        d-flex
+        justify-content-center
+        align-items-center
+        headline
+        bg-white
+      "
+    >
+      <div class="container w-50">
+        <h1 class="fw-bold fs-1">
+          Hello, We are <br />
+          Amadu and Anselem
+        </h1>
+        <p>
+          We are software developers! We can help you build a product , feature
+          or website Look through some of my work and experience! If you like
+          what you see and have a project you need coded, don’t hestiate to
+          contact us.
+        </p>
+        <a href="" class="text-uppercase text-decoration-none">Let's Connect</a>
+        <ul class="d-flex p-lg-0 mt-2">
+          <li class="me-3 list-unstyled">
+            <a
+              class="text-secondary"
+              href="https://twitter.com/DevAmkam"
+              target="blank"
+              ><i class="fab fa-twitter network-link"></i
+            ></a>
+          </li>
+          <li class="me-3 list-unstyled">
+            <a
+              class="text-secondary"
+              href="https://www.facebook.com/amadus.kamara.7"
+              target="blank"
+              ><i class="fab fa-facebook-square network-link"></i
+            ></a>
+          </li>
+          <li class="me-3 list-unstyled">
+            <a
+              class="text-secondary"
+              href="https://www.linkedin.com/in/amadu-kamara-3b60a25b/"
+              target="blank"
+              ><i class="fab fa-linkedin-in network-link"></i
+            ></a>
+          </li>
+          <li class="me-3 list-unstyled">
+            <a
+              class="text-secondary"
+              href="https://github.com/AmaduKamara"
+              target="blank"
+              ><i class="fab fa-github-square network-link"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Work Section -->
+    <section class="py-lg-5 works"></section>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script

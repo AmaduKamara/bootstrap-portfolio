@@ -1,0 +1,7 @@
+.headline {
+  height: 916px;
+  background-image: url("./images/Header\ bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 0 0 100px;
+}
