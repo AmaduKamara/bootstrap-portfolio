@@ -5,3 +5,7 @@
   background-size: cover;
   border-radius: 0 0 0 100px;
 }
+
+footer {
+  border-radius: 100px 0 0 0;
+}
